@@ -1,0 +1,49 @@
+URIS:
+
+"alunos"
+
+GET: http://localhost:3003/api/alunos
+
+GET ID: http://localhost:3003/api/alunos/5f7f5bf312072a07a05af7cd
+
+GET REGEX: http://localhost:3003/api/alunos?nome__regex=/^ale/i
+
+GET COUNT: http://localhost:3003/api/alunos/count
+
+GET PAGINATION: http://localhost:3003/api/alunos?skip=1&limit=1
+
+POST: http://localhost:3003/api/alunos
+	(body in JSON - new aluno)
+
+PUT ID: http://localhost:3003/api/alunos/5f7e35fcfdd8e4510cb3801a
+        (body in JSON - update aluno)
+
+DEL: http://localhost:3003/api/alunos/5f7e04e9fdd8e4510cb37bc9
+
+"aluno.ocorrencia"
+
+GET with ID ALUNO: http://localhost:3003/api/alunos/ocorrencia?idAluno=5f7f5bf312072a07a05af7cd
+
+GET COUNT: http://localhost:3003/api/alunos/countocorrencias?initialDate=2019-01-01&finalDate=2019-12-31
+   OBS: To dashboard
+
+GET RESUME: http://localhost:3003/api/alunos/resumeocorrencias
+   OBS: To dashboard
+
+POST: http://localhost:3003/api/alunos/ocorrencia?id=5f7f5bf312072a07a05af7cd
+    (query ID Aluno)
+
+DEL: http://localhost:3003/api/alunos/ocorrencia?id=5f836ad278a1ba22f8cc0258
+    (query ID ocorrencia)
+
+"aluno.comportamento"
+
+GET: http://localhost:3003/api/alunos/comportamento
+   OBS: return only 'comportamento' of alunos
+
+"comportamento"
+
+GET: http://localhost:3003/api/tabela-comportamento
+
+
+
