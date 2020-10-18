@@ -1,0 +1,223 @@
+[{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03db"
+  },
+  "codigo": "1",
+  "transgressao": "Faltar à verdade."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03dc"
+  },
+  "codigo": "2",
+  "transgressao": "Utilizar-se do anonimato."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03dd"
+  },
+  "codigo": "3",
+  "transgressao": "Comportar-se de maneira inadequada, desrespeitando ou desafiando pessoas, descumprindo normas vigentes ou normas de boa educação."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03de"
+  },
+  "codigo": "4",
+  "transgressao": "Deixar de comparecer ou chegar atrasado às atividades programadas ou delas ausentar-se sem autorização."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03df"
+  },
+  "codigo": "5",
+  "transgressao": " Portar-se de modo inconveniente nas atividades escolares, nas instruções ou em formaturas, perturbando o desenvolvimento dessas atividades."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e0"
+  },
+  "codigo": "6",
+  "transgressao": "Simular doença para esquivar-se ao atendimento de obrigações e atividades escolares."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e1"
+  },
+  "codigo": "7",
+  "transgressao": "Deixar de comunicar ao superior a execução de tarefa dele recebida."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e2"
+  },
+  "codigo": "8",
+  "transgressao": "Retardar ou para ela contribuir, sem justo motivo, a execução de qualquer tarefa."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e3"
+  },
+  "codigo": "9",
+  "transgressao": "Representar o Colégio ou por ele tomar compromisso, sem estar para isso autorizado."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e4"
+  },
+  "codigo": "10",
+  "transgressao": "Portar objetos que ameacem a segurança individual e/ou da coletividade."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e5"
+  },
+  "codigo": "11",
+  "transgressao": "Causar danos a bens materiais de qualquer natureza."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e6"
+  },
+  "codigo": "12",
+  "transgressao": "Portar, usar e/ou distribuir drogas lícitas ou ilícitas nas dependências do colégio ou fora dele."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e7"
+  },
+  "codigo": "13",
+  "transgressao": "Ter em seu poder, introduzir, ler ou distribuir, dentro do Colégio, cartazes, jornais ou publicações, de cunho político-partidário ou que atentem contra a disciplina ou a moral."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e8"
+  },
+  "codigo": "14",
+  "transgressao": "Propor ou aceitar transação pecuniária de qualquer natureza, no interior do Colégio, sem a devida autorização."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03e9"
+  },
+  "codigo": "15",
+  "transgressao": "Praticar jogos inadequados ao ambiente educativo."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03ea"
+  },
+  "codigo": "16",
+  "transgressao": "Praticar esportes em locais e horários inadequados."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03eb"
+  },
+  "codigo": "17",
+  "transgressao": "Esquivar-se de satisfazer compromissos de ordem moral ou pecuniária que houver assumido."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03ec"
+  },
+  "codigo": "18",
+  "transgressao": "Frequentar lugares incompatíveis com o decoro da sociedade e de sua situação de aluno."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03ed"
+  },
+  "codigo": "19",
+  "transgressao": "Apresentar-se com uniforme diferente do que foi previamente estabelecido."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03ee"
+  },
+  "codigo": "20",
+  "transgressao": "Comparecer ao Colégio sem estar fardado."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03ef"
+  },
+  "codigo": "21",
+  "transgressao": "Trocar de uniforme em locais não apropriados."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f0"
+  },
+  "codigo": "22",
+  "transgressao": "Ter pouco cuidado com o asseio e/ou com sua apresentação individual."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f1"
+  },
+  "codigo": "23",
+  "transgressao": "Deixar de usar ou usar de maneira irregular, peças de uniforme previstas no CMT ou nas normas vigentes."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f2"
+  },
+  "codigo": "24",
+  "transgressao": "Deixar material ou dependência sob sua responsabilidade, desarrumados ou com má apresentação, ou para tal contribuir."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f3"
+  },
+  "codigo": "25",
+  "transgressao": "Retirar ou tentar retirar de qualquer dependência do Colégio objeto, ou mesmo deles servir-se, sem ordem do responsável ou do proprietário."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f4"
+  },
+  "codigo": "26",
+  "transgressao": "Deixar de apresentar material, documento ou trabalhos escolares de sua responsabilidade, nas atividades escolares ou quando solicitado, em dia e em ordem."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f5"
+  },
+  "codigo": "27",
+  "transgressao": "Deixar de devolver ao CMT, dentro do prazo estipulado, qualquer documento, devidamente revisado pelo seu responsável."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f6"
+  },
+  "codigo": "28",
+  "transgressao": "Utilizar de processos fraudulentos na realização de provas e trabalhos escolares, bem como a adulteração de documentação."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f7"
+  },
+  "codigo": "29",
+  "transgressao": "Entrar no Colégio ou dele sair, não estando para isso autorizado, bem como entrar ou sair por locais e vias não permitidos."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f8"
+  },
+  "codigo": "30",
+  "transgressao": "Ir a qualquer dependência do Colégio sem autorização, bem como entrar nestas dependências sem permissão ou ordem da autoridade que nela estiver presente."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03f9"
+  },
+  "codigo": "31",
+  "transgressao": "Deixar de acatar as ordens ou instrução emanadas de autoridades civis, que não colidam com o regime disciplinar do Colégio, especialmente se emanadas do Juizado de Menores."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03fa"
+  },
+  "codigo": "32",
+  "transgressao": "Apresentar parte ou recursos sem seguir as normas e preceitos regulamentares, em termos desrespeitosos, com argumentos falsos ou de má fé, ou mesmo sem justa causa ou razão."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03fb"
+  },
+  "codigo": "33",
+  "transgressao": "Deixar de cumprir o prescrito nos regulamentos, normas e orientações, ou contribuir para tal."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03fc"
+  },
+  "codigo": "34",
+  "transgressao": "Não levar falta ou irregularidade que presenciar, ou de que tiver ciência e não lhe couber reprimir, ao conhecimento de autoridade competente."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03fd"
+  },
+  "codigo": "35",
+  "transgressao": "Publicar ou contribuir para que sejam publicadas mensagens, fotos ou qualquer outro documento, na Internet ou qualquer outro meio de comunicação, que possa concorrer integrante do Colégio sem a devida autorização."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03fe"
+  },
+  "codigo": "36",
+  "transgressao": "Obter ou fazer uso de imagens, vídeos, áudios ou de qualquer tipo de publicação difamatória, envolvendo o Colégio e/ou seus funcionários."
+},{
+  "_id": {
+    "$oid": "5f10f46e72c8632600df03ff"
+  },
+  "codigo": "37",
+  "transgressao": "Promover ou envolver-se em rixa, inclusive luta corporal, com outro aluno."
+}]

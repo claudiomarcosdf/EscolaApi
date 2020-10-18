@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "5f10c2292783db2cae722d7b"
+  },
+  "descricao": "Advertência escrita",
+  "tipo_conduta": "Negativa",
+  "valor": {
+    "$numberDecimal": "0.10"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c2bb21eefe187c787104"
+  },
+  "descricao": "Elogio individual",
+  "tipo_conduta": "Positiva",
+  "valor": {
+    "$numberDecimal": "0.30"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c47221eefe187c78710a"
+  },
+  "descricao": "Advertência verbal",
+  "tipo_conduta": "Negativa",
+  "valor": {
+    "$numberDecimal": "0.00"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c49521eefe187c78710b"
+  },
+  "descricao": "Repreensão",
+  "tipo_conduta": "Negativa",
+  "valor": {
+    "$numberDecimal": "0.20"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c4ad21eefe187c78710c"
+  },
+  "descricao": "Estudo orientado",
+  "tipo_conduta": "Negativa",
+  "valor": {
+    "$numberDecimal": "0.40"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c4c321eefe187c78710d"
+  },
+  "descricao": "Suspensão",
+  "tipo_conduta": "Negativa",
+  "valor": {
+    "$numberDecimal": "0.80"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c4db21eefe187c78710e"
+  },
+  "descricao": "Elogio coletivo",
+  "tipo_conduta": "Positiva",
+  "valor": {
+    "$numberDecimal": "0.10"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c4f921eefe187c78710f"
+  },
+  "descricao": "Aprovação por média sem recuperação",
+  "tipo_conduta": "Positiva",
+  "valor": {
+    "$numberDecimal": "0.50"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c51121eefe187c787110"
+  },
+  "descricao": "Aprovação por média com recuperação",
+  "tipo_conduta": "Positiva",
+  "valor": {
+    "$numberDecimal": "0.20"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c55d21eefe187c787111"
+  },
+  "descricao": "Reprovação",
+  "tipo_conduta": "Neutra",
+  "valor": {
+    "$numberDecimal": "0.00"
+  }
+}]

@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "5f10c30f2783db2cae722d7d"
+  },
+  "classificacao": "Excepcional",
+  "grau_inicial": {
+    "$numberDecimal": "10.00"
+  },
+  "grau_final": {
+    "$numberDecimal": "10.00"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c3af21eefe187c787105"
+  },
+  "classificacao": "Ótimo",
+  "grau_inicial": {
+    "$numberDecimal": "9.00"
+  },
+  "grau_final": {
+    "$numberDecimal": "9.99"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c3cd21eefe187c787106"
+  },
+  "classificacao": "Bom",
+  "grau_inicial": {
+    "$numberDecimal": "7.00"
+  },
+  "grau_final": {
+    "$numberDecimal": "8.99"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c3e121eefe187c787107"
+  },
+  "classificacao": "Regular",
+  "grau_inicial": {
+    "$numberDecimal": "5.00"
+  },
+  "grau_final": {
+    "$numberDecimal": "6.99"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c3f721eefe187c787108"
+  },
+  "classificacao": "Insuficiente",
+  "grau_inicial": {
+    "$numberDecimal": "3.00"
+  },
+  "grau_final": {
+    "$numberDecimal": "4.99"
+  }
+},{
+  "_id": {
+    "$oid": "5f10c40b21eefe187c787109"
+  },
+  "classificacao": "Mau",
+  "grau_inicial": {
+    "$numberDecimal": "0.00"
+  },
+  "grau_final": {
+    "$numberDecimal": "2.99"
+  }
+}]

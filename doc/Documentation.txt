@@ -1,3 +1,5 @@
+**** escoladb.alunos ****
+
 URIS:
 
 "alunos"

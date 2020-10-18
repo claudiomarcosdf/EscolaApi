@@ -1,0 +1,493 @@
+[{
+  "_id": {
+    "$oid": "5f6250e544642d091489d919"
+  },
+  "comportamento": {
+    "status": "Bom",
+    "pontuacao": 8.1,
+    "_id": {
+      "$oid": "5f753b7daca93529f03325e7"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "2222222",
+  "nome": "Maria Fernanda Silva",
+  "telefone": "083744-5599",
+  "patente": "Cabo aluno",
+  "data_nascimento": {
+    "$date": "2008-01-01T00:00:00Z"
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f6250e544642d091489d91a"
+    },
+    "ano": "6º",
+    "turma": "A",
+    "turno": "Matutino",
+    "serie": "Ensino fundamental I",
+    "data_matricula": {
+      "$date": "2020-09-16T17:52:37.248Z"
+    }
+  },
+  "ocorrencias": [
+    {
+      "_id": {
+        "$oid": "5f625b3116263d436c7c2e81"
+      },
+      "data": {
+        "$date": "2020-01-25T00:00:00Z"
+      },
+      "fato_observado": "teste",
+      "conduta": "NEGATIVA",
+      "medida": "Repreensão",
+      "valor": 0.2
+    },
+    {
+      "_id": {
+        "$oid": "5f625b3116263d436c7c2e82"
+      },
+      "data": {
+        "$date": "2020-05-13T00:00:00Z"
+      },
+      "fato_observado": "teste maio",
+      "conduta": "NEGATIVA",
+      "medida": "Advertência escrita",
+      "valor": 0.1
+    },
+    {
+      "_id": {
+        "$oid": "5f753b7daca93529f03325e6"
+      },
+      "data": {
+        "$date": "2021-09-30T00:00:00Z"
+      },
+      "fato_observado": "Elogio do comandante geral da PMDF",
+      "conduta": "POSITIVA",
+      "medida": "Elogio",
+      "valor": 0.4
+    }
+  ],
+  "__v": 0,
+  "genero": "F",
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f7bc8c1814d2522cc8dfa79"
+    },
+    "cpf": "123.456.789-99",
+    "rg": "",
+    "email": "nada.jesus@souatual.com.br",
+    "residencia": {
+      "endereco": "Portal das andorinhas",
+      "cidade": "Brasília",
+      "uf": "DF",
+      "cep": "71.000-000"
+    },
+    "contatos": {
+      "responsavel1": "Claudio Marcos Jesus",
+      "celular_resp1": "99976-3788",
+      "responsavel2": "Alessanra Rosa Jesus",
+      "celular_resp2": "988741-2277"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5f62a31a89302f3e1c435ed3"
+  },
+  "comportamento": {
+    "status": "Bom",
+    "pontuacao": {
+      "$numberDecimal": "7"
+    },
+    "_id": {
+      "$oid": "5f640740fc56b231d8908593"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "3333333",
+  "nome": "Ale Rosa",
+  "telefone": "99876-9999",
+  "patente": "Aspirante aluno",
+  "data_nascimento": {
+    "$date": "1976-12-14T00:00:00Z"
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f62a31a89302f3e1c435ed4"
+    },
+    "ano": "8º",
+    "turma": "A",
+    "turno": "Matutino",
+    "serie": "Ensino fundamental II",
+    "data_matricula": {
+      "$date": "2020-09-16T23:43:22.836Z"
+    }
+  },
+  "ocorrencias": [
+    {
+      "_id": {
+        "$oid": "5f63e3c71e98c13ec485b9d9"
+      },
+      "data": {
+        "$date": "2021-11-24T00:00:00Z"
+      },
+      "fato_observado": "Cortou o coleguinha",
+      "conduta": "NEGATIVA",
+      "medida": "Suspensão",
+      "valor": 0.8
+    },
+    {
+      "_id": {
+        "$oid": "5f63e4261e98c13ec485b9e1"
+      },
+      "data": {
+        "$date": "2022-04-30T00:00:00Z"
+      },
+      "fato_observado": "Desobediência ao professor em sala de aula mediante diretora",
+      "conduta": "NEGATIVA",
+      "medida": "Advertência escrita",
+      "valor": 0.2
+    }
+  ],
+  "__v": 0,
+  "genero": "F",
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f640683fc56b231d890857e"
+    },
+    "cpf": "000.000.000-00",
+    "rg": "",
+    "email": "alerosa.df@yahoo.com.br",
+    "residencia": {
+      "endereco": "Rua baipendi nº 7",
+      "cidade": "Brejinho",
+      "uf": "PE",
+      "cep": "00.000-000"
+    },
+    "contatos": {
+      "responsavel1": "Claudio José Lima",
+      "celular_resp1": "9875-8844",
+      "responsavel2": "Thereza cristina",
+      "celular_resp2": "76533-8844"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "5f7c566146c81a46e4134044"
+  },
+  "comportamento": {
+    "status": "Bom",
+    "pontuacao": 8,
+    "_id": {
+      "$oid": "5f7c566146c81a46e4134043"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "1234567",
+  "nome": "Claudio Marcos",
+  "telefone": "88888-9999",
+  "patente": "Capitão aluno",
+  "data_nascimento": {
+    "$date": "1974-07-18T00:00:00Z"
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f7c566146c81a46e4134045"
+    },
+    "data_matricula": {
+      "$date": "2020-10-06T11:34:57.363Z"
+    },
+    "ano": "2º",
+    "turma": "C",
+    "turno": "Vespertino",
+    "serie": "Ensino médio"
+  },
+  "ocorrencias": [],
+  "__v": 0,
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f7c56d046c81a46e4134046"
+    },
+    "cpf": "456.456.123-77",
+    "rg": "",
+    "email": "claudio.jesus@gmail.com",
+    "residencia": {
+      "endereco": "Portal das andorinhas",
+      "cidade": "Brasília",
+      "uf": "DF",
+      "cep": "71.000-000"
+    },
+    "contatos": {
+      "responsavel1": "Manoel Messias Jesus",
+      "celular_resp1": "99976-3788",
+      "responsavel2": "Maria do Carmo Jesus",
+      "celular_resp2": "988741-2277"
+    }
+  },
+  "genero": "M"
+},{
+  "_id": {
+    "$oid": "5f7e1540fdd8e4510cb37fb9"
+  },
+  "comportamento": {
+    "status": "Bom",
+    "pontuacao": 8,
+    "_id": {
+      "$oid": "5f7e1540fdd8e4510cb37fb8"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "4545454",
+  "nome": "Aluno teste",
+  "telefone": "(32) 64546-5686",
+  "patente": "Cabo aluno",
+  "data_nascimento": {
+    "$date": "2005-02-01T00:00:00Z"
+  },
+  "genero": "M",
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f7e1540fdd8e4510cb37fba"
+    },
+    "cpf": "225.878.789-79",
+    "rg": "",
+    "email": "teste@teste.com.br",
+    "residencia": {
+      "endereco": "",
+      "cidade": "",
+      "uf": "",
+      "cep": ""
+    },
+    "contatos": {
+      "responsavel1": "",
+      "celular_resp1": "",
+      "responsavel2": "",
+      "celular_resp2": ""
+    }
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f7e1540fdd8e4510cb37fbb"
+    },
+    "data_matricula": {
+      "$date": "2020-10-07T00:00:00Z"
+    },
+    "ano": "1º",
+    "turma": "B",
+    "turno": "Integral",
+    "serie": "Ensino fundamental I"
+  },
+  "ocorrencias": [
+    {
+      "_id": {
+        "$oid": "5f7e3d48fdd8e4510cb38042"
+      },
+      "data": {
+        "$date": "2019-04-05T00:00:00Z"
+      },
+      "fato_observado": "bagunça",
+      "conduta": "NEGATIVA",
+      "medida": "Repreensão",
+      "valor": 0.2
+    },
+    {
+      "_id": {
+        "$oid": "5f7e3d48fdd8e4510cb38043"
+      },
+      "data": {
+        "$date": "2020-07-02T00:00:00Z"
+      },
+      "fato_observado": "briga",
+      "conduta": "NEGATIVA",
+      "medida": "Advertência escrita",
+      "valor": 0.1
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7e35fcfdd8e4510cb3801a"
+  },
+  "comportamento": {
+    "status": "Mau",
+    "pontuacao": 1,
+    "_id": {
+      "$oid": "5f7e35fcfdd8e4510cb38019"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "5555555",
+  "nome": "Kelen miranda Sales porto",
+  "telefone": "(64) 66646-5465",
+  "patente": "3º Sgt aluno",
+  "data_nascimento": {
+    "$date": "2001-06-05T00:00:00Z"
+  },
+  "genero": "F",
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f7e35fcfdd8e4510cb3801b"
+    },
+    "cpf": "779.953.232-32",
+    "rg": "9999",
+    "email": "kelen.swa@hotmail.com",
+    "residencia": {
+      "endereco": "Quadra 2045 lote 347367467364",
+      "cidade": "",
+      "uf": "GO",
+      "cep": ""
+    },
+    "contatos": {
+      "responsavel1": "",
+      "celular_resp1": "",
+      "responsavel2": "",
+      "celular_resp2": ""
+    }
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f7e35fcfdd8e4510cb3801c"
+    },
+    "data_matricula": {
+      "$date": "2020-10-07T00:00:00Z"
+    },
+    "ano": "4º",
+    "turma": "C",
+    "turno": "Vespertino",
+    "serie": "Ensino médio"
+  },
+  "ocorrencias": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7e51d6fdd8e4510cb3947f"
+  },
+  "comportamento": {
+    "status": "Regular",
+    "pontuacao": 6,
+    "_id": {
+      "$oid": "5f7e51d6fdd8e4510cb3947e"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "8888888",
+  "nome": "Naldo Farias",
+  "telefone": "(68) 16554-6464",
+  "patente": "Aspirante aluno",
+  "data_nascimento": {
+    "$date": "1999-09-20T00:00:00Z"
+  },
+  "genero": "M",
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f7e51d6fdd8e4510cb39480"
+    },
+    "cpf": "764.594.566-56",
+    "rg": "555888777",
+    "email": "naldo@naldo.com.br",
+    "residencia": {
+      "endereco": "",
+      "cidade": "",
+      "uf": "",
+      "cep": ""
+    },
+    "contatos": {
+      "responsavel1": "",
+      "celular_resp1": "",
+      "responsavel2": "",
+      "celular_resp2": ""
+    }
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f7e51d6fdd8e4510cb39481"
+    },
+    "data_matricula": {
+      "$date": "2020-10-07T00:00:00Z"
+    },
+    "ano": "3º",
+    "turma": "ABCD",
+    "turno": "Matutino",
+    "serie": "Ensino médio"
+  },
+  "ocorrencias": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7f5bf312072a07a05af7cd"
+  },
+  "comportamento": {
+    "status": "Bom",
+    "pontuacao": 7.000000000000002,
+    "_id": {
+      "$oid": "5f8747f93220002a4008e7d2"
+    }
+  },
+  "situacao": "ativo",
+  "matricula": "1111111",
+  "nome": "Fred Gruger Brasileiro",
+  "telefone": "(61) 65656-6599",
+  "patente": "2º tenente aluno",
+  "data_nascimento": {
+    "$date": "1999-05-19T00:00:00Z"
+  },
+  "genero": "M",
+  "dados_pessoais": {
+    "_id": {
+      "$oid": "5f7f5bf312072a07a05af7ce"
+    },
+    "cpf": "475.963.852-15",
+    "rg": "",
+    "email": "gruger@br.com",
+    "residencia": {
+      "endereco": "",
+      "cidade": "",
+      "uf": "",
+      "cep": ""
+    },
+    "contatos": {
+      "responsavel1": "",
+      "celular_resp1": "",
+      "responsavel2": "",
+      "celular_resp2": ""
+    }
+  },
+  "classe": {
+    "_id": {
+      "$oid": "5f7f5bf312072a07a05af7cf"
+    },
+    "data_matricula": {
+      "$date": "2020-10-08T00:00:00Z"
+    },
+    "ano": "7º",
+    "turma": "A",
+    "turno": "Vespertino",
+    "serie": "Ensino fundamental II"
+  },
+  "ocorrencias": [
+    {
+      "_id": {
+        "$oid": "5f87090a4a2c1d2ca0005c36"
+      },
+      "data": {
+        "$date": "2020-10-14T00:00:00Z"
+      },
+      "fato_observado": "Teste",
+      "conduta": "NEGATIVA",
+      "medida": "Advertência escrita",
+      "valor": 0.1
+    },
+    {
+      "_id": {
+        "$oid": "5f871afb4a2c1d2ca0005c43"
+      },
+      "data": {
+        "$date": "2020-10-14T00:00:00Z"
+      },
+      "fato_observado": "teste2",
+      "conduta": "NEGATIVA",
+      "medida": "Advertência escrita",
+      "valor": 0.1
+    }
+  ],
+  "__v": 0
+}]
