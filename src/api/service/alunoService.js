@@ -206,17 +206,18 @@ Aluno.route('comportamento', (_, res, next) => {
 });
 
 Aluno.route('resumeocorrencias', (_, res, next) => {
-  const atualDate = new Date();
+  const atualDate = new Date(new Date().setUTCHours(0, 0, 0, 0));
 
-  let startToday = new Date();
-  let endToday = new Date();
+  let startToday = new Date(new Date().setUTCHours(0, 0, 0, 0));
+  let endToday = new Date(new Date().setUTCHours(0, 0, 0, 0));
   //prettier-ignore
-  let startCurrentMonth = new Date(atualDate.getFullYear(), atualDate.getMonth(), 1);
+  let startCurrentMonth = new Date(new Date(atualDate.getFullYear(), atualDate.getMonth(), 1).setUTCHours(0, 0, 0, 0));
   //prettier-ignore
-  let endCurrentMonth = new Date(atualDate.getFullYear(), atualDate.getMonth()+1, 0);
-
-  let startCurrentYear = new Date(atualDate.getFullYear(), 1 - 1, 1);
-  let endCurrentYear = new Date(atualDate.getFullYear(), 12 - 1, 31);
+  let endCurrentMonth = new Date(new Date(atualDate.getFullYear(), atualDate.getMonth()+1, 0).setUTCHours(0, 0, 0, 0));
+  //prettier-ignore
+  let startCurrentYear = new Date(new Date(atualDate.getFullYear(), 1 - 1, 1).setUTCHours(0, 0, 0, 0));
+  //prettier-ignore
+  let endCurrentYear = new Date(new Date(atualDate.getFullYear(), 12 - 1, 31).setUTCHours(0, 0, 0, 0));
 
   (async () => {
     try {
@@ -250,7 +251,6 @@ Aluno.route('countocorrencias', (req, res, next) => {
     endDate = new Date(finalDate);
   } else {
   }
-
   (async () => {
     try {
       const qtde = await getTotalOcorrenciasPeriodo(startDate, endDate);

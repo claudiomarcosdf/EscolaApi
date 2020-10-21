@@ -11,6 +11,15 @@ server.use(bodyParser.json());
 server.use(
   cors({
     origin: process.env.CORS,
+    methods: 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
+    allowedHeaders: [
+      'Access-Control-Allow-Headers',
+      'Origin',
+      'X-Requested-With',
+      'Content-Type',
+      'Accept',
+      'Authorization',
+    ],
   })
 );
 server.use(queryParser());
