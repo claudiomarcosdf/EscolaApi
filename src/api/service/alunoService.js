@@ -2,10 +2,14 @@
 const Aluno = require('../aluno/alunoModel');
 const TabelaComportamento = require('../comportamento/tabelaComportamentoModel');
 const errorHandler = require('../common/errorHandler');
+const auditorHandler = require('../common/auditorHandler');
 
 Aluno.methods(['get', 'post', 'put', 'patch', 'delete']);
 Aluno.updateOptions({ new: true, runValidators: true });
 Aluno.after('post', errorHandler).after('put', errorHandler);
+Aluno.before('post', auditorHandler)
+  .before('put', auditorHandler)
+  .before('delete', auditorHandler);
 
 //detail: true -> detail routes operate on a single instance, i.e. /user/:id
 //TESTAR A FUNÇÃO PUSH E PULL DO MONGOOSE PARA INSERIR E EXCLUIR UM DOCUMENTO
