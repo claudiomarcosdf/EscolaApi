@@ -10,7 +10,7 @@ const auditorSchema = new mongoose.Schema({
   tipo_acao: {
     type: String,
     required: true,
-    enum: ['INCLUSÃO', 'ALTERAÇÃO', 'EXCLUSÃO'],
+    enum: ['POST', 'PUT', 'DELETE'],
   },
   acao: {
     type: String,

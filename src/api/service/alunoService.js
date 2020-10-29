@@ -11,6 +11,11 @@ Aluno.before('post', auditorHandler)
   .before('put', auditorHandler)
   .before('delete', auditorHandler);
 
+Aluno.before('ocorrencia.post', auditorHandler).before(
+  'ocorrencia.delete',
+  auditorHandler
+);
+
 //detail: true -> detail routes operate on a single instance, i.e. /user/:id
 //TESTAR A FUNÇÃO PUSH E PULL DO MONGOOSE PARA INSERIR E EXCLUIR UM DOCUMENTO
 // NO SUBDOCUMENTO:doc.subdocs.push({ _id: 4815162342 })
