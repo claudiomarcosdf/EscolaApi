@@ -1,6 +1,7 @@
 const express = require('express');
 const auth = require('./auth');
 const AlunoRouter = require('../api/service/alunoService');
+const ObservadorRouter = require('../api/service/observadorService');
 const TabelaComportamentoRouter = require('../api/service/tabelaComportamentoService');
 const TabelaMedidaRouter = require('../api/service/tabelaMedidaService');
 const TabelaTransgressaoRouter = require('../api/service/tabelaTransgressaoService');
@@ -19,6 +20,8 @@ module.exports = function (server) {
   TabelaMedidaRouter.register(protectedApi, '/tabela-medida');
   //Rotas Tabela de Transgressao
   TabelaTransgressaoRouter.register(protectedApi, '/tabela-transgressao');
+  //Rotas do Observador
+  ObservadorRouter.register(protectedApi, '/observadores');
 
   /* Rotas abertas */
   const openApi = express.Router();

@@ -61,6 +61,8 @@ const dadosPessaisSchema = new mongoose.Schema({
   email: { type: String },
   residencia: { type: endereco },
   contatos: { type: contatos },
+  avatar_url: { type: String },
+  avatar_nome: { type: String },
 });
 
 //Ao usar o validate, verifiquei que nas alterações, incluindo o campo Matrícula dá erro

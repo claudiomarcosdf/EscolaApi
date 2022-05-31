@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const User = require('../user/user');
 
-const AUTH_SECRET = process.env.AUTHSECRET;
+const AUTH_SECRET = process.env.AUTH_SECRET;
 
 const emailRegex = /\S+@\S+\.\S+/;
 const passwordRegex = /((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})/;

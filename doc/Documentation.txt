@@ -4,6 +4,11 @@ URIS:
 
 "alunos"
 
+POST Avatar -> http://localhost:3003/api/alunos/avatar?id=5fad94a8c9ca5737b8c904b7
+   passando: form-data ( key = file, imagem)
+
+obs: o id é o _id do cliente
+
 GET: http://localhost:3003/api/alunos
 
 GET ID: http://localhost:3003/api/alunos/5f7f5bf312072a07a05af7cd

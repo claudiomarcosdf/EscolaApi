@@ -3,10 +3,14 @@ const Aluno = require('../aluno/alunoModel');
 const TabelaComportamento = require('../comportamento/tabelaComportamentoModel');
 const errorHandler = require('../common/errorHandler');
 const auditorHandler = require('../common/auditorHandler');
+const multer = require('multer');
+const multerConfig = require('../../config/multer');
+const removeFile = require('./alunoFileService');
 
 Aluno.methods(['get', 'post', 'put', 'patch', 'delete']);
 Aluno.updateOptions({ new: true, runValidators: true });
 Aluno.after('post', errorHandler).after('put', errorHandler);
+Aluno.before('avatar', multer(multerConfig).single('file'));
 Aluno.before('post', auditorHandler)
   .before('put', auditorHandler)
   .before('delete', auditorHandler);
@@ -15,6 +19,9 @@ Aluno.before('ocorrencia.post', auditorHandler).before(
   'ocorrencia.delete',
   auditorHandler
 );
+
+/* OBS: CRIAR ROTINA PARA RENOVAÇÕES DE MATRÍCULA QUE ALTERE, ALÉM DA SÉRIE,
+A PONTUAÇÃO ATUAL DO ALUNO PARA O PADRÃO QUE É 8 */
 
 //detail: true -> detail routes operate on a single instance, i.e. /user/:id
 //TESTAR A FUNÇÃO PUSH E PULL DO MONGOOSE PARA INSERIR E EXCLUIR UM DOCUMENTO
@@ -30,6 +37,52 @@ Aluno.route('count', (req, res, next) => {
     }
   });
 });
+
+//prettier-ignore (http://localhost:3003/api/alunos/avatar?id=)
+Aluno.route('avatar', ['post'], (req, res, next) => {
+  const id = req.query.id;
+  const url = `${process.env.APP_URL}/files/`; 
+  const name = req.file.key;
+
+  (async () => {
+    try {
+      const alunoData = await getDadosPessoais(id);
+      const newDadosPessoais = {
+        ...alunoData.toJSON(),
+        avatar_url: url,
+        avatar_nome: name,
+      };
+
+      //Se existir avatar, remove antes
+      if (alunoData.avatar_nome) {
+        if(alunoData.avatar_nome !== '') {
+          removeFile(alunoData.avatar_nome);
+        }
+      }
+
+      const alunoUpdated = await Aluno.findByIdAndUpdate(
+        { _id: id },
+        { dados_pessoais: newDadosPessoais },
+        { new: true }
+      );
+
+      if (!alunoUpdated) {
+        res.status(404).json({ errors: ['Erro ao adicionar foto.'] });
+      } else {
+        res.status(200).json(alunoUpdated);
+      }
+    } catch (error) {
+      res.status(404).json({ errors: [error] });
+    }
+  })();
+});
+
+const getDadosPessoais = async (id) => {
+  const projections = { _id: 0, dados_pessoais: 1 };
+  const data = await Aluno.findById(id, projections);
+
+  return data.dados_pessoais;
+};
 
 Aluno.route('ocorrencia', ['post'], (req, res, next) => {
   const id = req.query.id; //Id do Aluno
