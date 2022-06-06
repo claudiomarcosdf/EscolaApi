@@ -113,6 +113,7 @@ const alunoSchema = new mongoose.Schema({
   },
   ocorrencias: { type: [ocorrenciaSchema] },
   situacao: { type: String, enum: ['ativo', 'inativo'], default: 'ativo' },
+  createAt: { type: Date, required: true, default: Date.now }
 });
 
 alunoSchema.plugin(beautifyUnique);

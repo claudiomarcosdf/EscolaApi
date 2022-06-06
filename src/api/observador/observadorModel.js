@@ -39,9 +39,11 @@ const observadorSchema = new mongoose.Schema({
   genero: { type: String, enum: ['M', 'F'] },
   data_nascimento: { type: Date, required: true },
   telefone: { type: String, required: true },
+  funcao: { type: String },
   dados_pessoais: { type: dadosPessaisSchema },
   situacao: { type: String, enum: ['ativo', 'inativo'], default: 'ativo' },
+  createAt: { type: Date, required: true, default: Date.now }
 });
 
 observadorSchema.plugin(beautifyUnique);
-module.exports = restful.model('observador', observadorSchema);
+module.exports = restful.model('observadores', observadorSchema, 'observadores');
