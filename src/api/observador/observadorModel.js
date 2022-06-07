@@ -15,7 +15,7 @@ const dadosPessaisSchema = new mongoose.Schema({
   rg: { type: String },
   email: { type: String },
   residencia: { type: endereco },
-  avatar_url: { type: String },
+  avatar_url: { type: String }, 
   avatar_nome: { type: String },
 });
 
