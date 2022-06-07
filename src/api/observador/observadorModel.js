@@ -10,19 +10,11 @@ const endereco = {
   cep: { type: String },
 };
 
-const contatos = {
-  responsavel: { type: String },
-  celular_resp1: { type: String },
-  responsavel2: { type: String },
-  celular_resp2: { type: String },
-};
-
 const dadosPessaisSchema = new mongoose.Schema({
   cpf: { type: String, unique: true, required: true },
   rg: { type: String },
   email: { type: String },
   residencia: { type: endereco },
-  contatos: { type: contatos },
   avatar_url: { type: String },
   avatar_nome: { type: String },
 });
